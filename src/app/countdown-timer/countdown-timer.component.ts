@@ -6,6 +6,9 @@ import {Component, Input, OnDestroy, OnInit} from '@angular/core';
   styleUrls: ['./countdown-timer.component.css']
 })
 export class CountdownTimerComponent implements OnInit, OnDestroy {
+  private interValid = 0;
+  message = '';
+  remainingTime: number;
   @Input()
   second = 11;
 
@@ -16,6 +19,26 @@ export class CountdownTimerComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+  }
+
+  clearTimer() {
+
+  }
+
+  start() {
+
+  }
+
+  stop() {
+
+  }
+
+  reset() {
+
+  }
+
+  private countDown() {
+
   }
 
 }
