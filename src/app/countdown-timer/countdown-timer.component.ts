@@ -26,7 +26,7 @@ export class CountdownTimerComponent implements OnInit, OnDestroy {
   }
 
   start() {
-
+    this.remainingTime = this.second;
   }
 
   stop() {
